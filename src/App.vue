@@ -1,26 +1,25 @@
 <script setup>
 
 import Header from './layouts/Header.vue'
+import Content from './layouts/Content.vue'
 import Footer from './layouts/Footer.vue'
 // import Navbar from './components/Navbar.vue'
-import HomePage from './components/HomePage.vue'
+// import HomePage from './components/HomePage.vue'
 // import AboutPage from './components/AboutPage.vue'
 
 </script>
 
 <template>
   <Header />
-  <!-- <Navbar /> -->
-  <h2>Halo 🖐 </h2>
-  <HomePage msg="Selamat Datang" />
+  <Content />
+  <!-- <HomePage msg="Selamat Datang" /> -->
 
   <Footer />
-  <!-- <AboutPage /> -->
 </template>
 
 <style>
 #app {
-  background: rgb(220, 235, 255);
+  background: white;
   /* height: auto; */
   margin-bottom: auto;
   font-family: 'Work Sans';
@@ -29,4 +28,14 @@ import HomePage from './components/HomePage.vue'
   border-radius: 20px;
   padding: 20px;
 }
+
+table{
+  width: 100%;
+}
+
+table, tr, td{
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+
 </style>
