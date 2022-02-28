@@ -1,22 +1,32 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
+
+import Header from './layouts/Header.vue'
+import Footer from './layouts/Footer.vue'
+// import Navbar from './components/Navbar.vue'
+import HomePage from './components/HomePage.vue'
+// import AboutPage from './components/AboutPage.vue'
+
 </script>
 
 <template>
-  <p>lorem ipsum</p>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <Header />
+  <!-- <Navbar /> -->
+  <h2>Halo 🖐 </h2>
+  <HomePage msg="Selamat Datang" />
+
+  <Footer />
+  <!-- <AboutPage /> -->
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: rgb(220, 235, 255);
+  /* height: auto; */
+  margin-bottom: auto;
+  font-family: 'Work Sans';
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 20px;
 }
 </style>
