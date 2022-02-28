@@ -1,9 +1,9 @@
 <script>
 
-import HomePage from '../components/HomePage.vue';
-import AboutPage from '../components/AboutPage.vue';
-import ProjectPage from '../components/ProjectPage.vue';
-import ContactPage from '../components/ContactPage.vue';
+import HomePage from '../pages/HomePage.vue';
+import AboutPage from '../pages/AboutPage.vue';
+import ProjectPage from '../pages/ProjectPage.vue';
+import ContactPage from '../pages/ContactPage.vue';
 
 const routes = {
     '/': HomePage,
@@ -32,27 +32,34 @@ export default {
 </script>
 
 <template>
-	<div id="navbar">
+	<!-- <div id="content"> -->
         <!-- <Navbar /> -->
         <br>
-        <a href="#/">Home</a> | 
-        <a href="#/about">About</a> | 
-        <a href="#/projects">Project</a> | 
-        <a href="#/contact">Contact</a>
+        <nav id="navbar">
+        	<a href="#/">Home</a> | 
+        	<a href="#/about">About</a> | 
+        	<a href="#/projects">Project</a> | 
+        	<a href="#/contact">Contact</a>
+        </nav>
         <br>
         <component :is="currentView" />
-    </div>
+    <!-- </div> -->
 </template>
 
 <style scoped>
 #navbar{
 	border: 1px solid lightgray;
 	border-radius: 20px;
-	margin: 0px 0px 10px 0px;
+	margin: 0px 10px 10px 10px;
 	padding-bottom: 20px;
 }
 
 a{
     font-size: 22px;
+	color: black;
+}
+
+a:hover{
+    color: darkgray;
 }
 </style>
