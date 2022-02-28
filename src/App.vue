@@ -1,6 +1,7 @@
 <script setup>
 
 import Header from './layouts/Header.vue'
+import Navbar from './layouts/Navbar.vue'
 import Content from './layouts/Content.vue'
 import Footer from './layouts/Footer.vue'
 // import Navbar from './components/Navbar.vue'
@@ -11,6 +12,7 @@ import Footer from './layouts/Footer.vue'
 
 <template>
   <Header />
+  <Navbar />
   <Content />
   <!-- <HomePage msg="Selamat Datang" /> -->
 
@@ -20,7 +22,10 @@ import Footer from './layouts/Footer.vue'
 <style>
 #app {
   background: white;
-  /* height: auto; */
+  color: black;
+  margin: 0;
+  height: 100%;
+  /* height: 100vh; */
   margin-bottom: auto;
   font-family: 'Work Sans';
   text-align: center;

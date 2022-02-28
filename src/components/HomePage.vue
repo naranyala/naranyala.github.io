@@ -10,11 +10,16 @@ const count = ref(0)
 
 <template>
   <div id="wrapper">
+    <div>
+      <br><i class="las la-4x la-home"></i>
+    </div>
     <h1>Home Page</h1>
     <br>
     <h2>Halo 🖐 </h2>
     <h1>{{ msg }}</h1>
     <button type="button" @click="count++">count is: {{ count }}</button>
+    <br>
+  
   </div>
 </template>
 

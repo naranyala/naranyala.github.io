@@ -3,6 +3,9 @@
 </script>
 
 <template>
+	<div>
+		<br><i class="las la-4x la-warehouse"></i>
+	</div>
 	<h1>Projects Page</h1>
 	<table>
 		<tr>
