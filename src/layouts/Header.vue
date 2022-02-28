@@ -12,9 +12,10 @@ import Navbar from './Navbar.vue'
 <style scoped>
 #header{
     margin: 0px 10px 10px 10px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     border-radius: 20px;
     padding: 20px;
+    /* background: lightcyan; */
 }
 
 

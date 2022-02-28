@@ -1,11 +1,11 @@
-<script>
-	
+<script setup>
+const name = '🏗 Project Page';
 </script>
 
 <template>
 	<div id="content">
 		<br><i class="las la-4x la-warehouse"></i>
-		<h1>Projects Page</h1>
+		<h1>{{ name }}</h1>
 		<table>
 			<tr>
 				<td>a</td>

@@ -9,7 +9,8 @@
     display: fixed;
     margin: 0px 10px 0px 10px;
     padding: 15px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     border-radius: 20px;
+    /* background: ; */
 }
 </style>

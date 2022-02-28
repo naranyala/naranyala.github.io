@@ -1,6 +1,8 @@
 <script setup>
 import { ref } from 'vue'
 
+const name = 'Home Page';
+
 defineProps({
   msg: String
 })
@@ -11,12 +13,11 @@ const count = ref(0)
 <template>
   <div id="content">
     <div>
-      <br><i class="las la-4x la-home"></i>
+      <!-- <br><i class="las la-4x la-home"></i> -->
+      <h1>🏡</h1>
     </div>
-    <h1>Home Page</h1>
+    <h1>{{ name }}</h1>
     <br>
-    <h2>Halo 🖐 </h2>
-    <h1>{{ msg }}</h1>
     <button type="button" @click="count++">count is: {{ count }}</button>
     <br>
 

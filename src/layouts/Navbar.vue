@@ -48,7 +48,7 @@ export default {
 
 <style scoped>
 #navbar{
-	border: 1px solid lightgray;
+	border: 1px solid gray;
 	border-radius: 20px;
 	margin: 0px 10px 10px 10px;
 	padding-bottom: 20px;
@@ -56,10 +56,10 @@ export default {
 
 a{
     font-size: 22px;
-	color: black;
+	color: white;
 }
 
 a:hover{
-    color: darkgray;
+    color: white;
 }
 </style>
