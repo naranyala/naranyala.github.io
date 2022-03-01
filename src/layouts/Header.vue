@@ -1,11 +1,24 @@
 <script>
 import Navbar from './Navbar.vue'
+import LeftSideHeader from './LeftSideHeader.vue'
+import RightSideHeader from './RightSideHeader.vue'
+
+export default{
+    name: 'Header',
+    components: {
+        LeftSideHeader,
+        RightSideHeader
+    }
+}
 </script>
 
 <template>
     <!-- <div id="header">Header</div> -->
     <header id="header">
-        <Navbar />
+        <!-- <LeftSideHeader /> -->
+        <!-- <Navbar /> -->
+        <div><h1>{ naranyala.github.io }</h1></div>
+        <!-- <RightSideHeader /> -->
     </header>
 </template>
 

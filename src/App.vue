@@ -1,35 +1,39 @@
 <script setup>
-import Header from './layouts/Header.vue'
+import AppHeader from './layouts/Header.vue'
 import Navbar from './layouts/Navbar.vue'
 import Content from './layouts/Content.vue'
-import Footer from './layouts/Footer.vue'
+import AppFooter from './layouts/Footer.vue'
 </script>
 
-<template>
+<template>  
   <div>
-    <Header />
-    <Navbar />
-    <Content />
-    <Footer />
+    <AppHeader></AppHeader>
+      <Navbar />
+      <Content />
+    <AppFooter></AppFooter>
   </div>
 </template>
 
 <style>
 html{
   background: #2e3440;
-  color: white;
+  /* color: white; */
 }
 
 #app {
   /* background: white; */
   color: white;
-  margin: 20px 25%;
+  /* margin: 20px 25%; */
   height: 100%;
   font-family: 'Work Sans';
+  font-size: 0.7rem;
   text-align: center;
   border: 1px solid gray;
   border-radius: 20px;
   padding: 20px;
+  width: 80%;
+  margin: auto;
+  /* align-content: center; */
 }
 
 table{
@@ -52,5 +56,9 @@ table, tr, td{
 #content h1{
   font-weight: bold;
   color: white;
+}
+
+p{
+  text-align: justify;
 }
 </style>

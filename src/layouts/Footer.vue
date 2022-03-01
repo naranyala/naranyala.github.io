@@ -1,11 +1,22 @@
 <template>
-    <footer id="footer">
-        &copy;2022
-    </footer>
+    <div id="footer">
+        <div class="detail-footer">
+           Details Footer
+        </div>
+        <footer><h2>&copy;2022</h2></footer>
+    </div>
 </template>
 
 <style scoped>
-#footer{
+
+.detail-footer{
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 15px 10px;
+    padding: 20px;
+}
+
+footer{
     display: fixed;
     margin: 0px 10px 0px 10px;
     padding: 15px;
