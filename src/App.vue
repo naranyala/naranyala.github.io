@@ -17,7 +17,11 @@ import AppFooter from './layouts/Footer.vue'
 <style>
 html{
   background: #2e3440;
-  /* color: white; */
+  color: white;
+}
+
+h1, h2{
+  color: white;
 }
 
 #app {

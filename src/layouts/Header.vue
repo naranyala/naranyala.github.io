@@ -28,6 +28,7 @@ export default{
     border: 1px solid gray;
     border-radius: 20px;
     padding: 20px;
+    color: white;
     /* background: lightcyan; */
 }
 
